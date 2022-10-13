@@ -1,0 +1,42 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    text-align: center;
+    background-image: linear-gradient(red, yellow, blue);
+}
+.container{
+    padding: 2%;
+}
+.container img{
+    width: 30%;
+}
+.main-container h1{
+    margin-top: 2%;
+}
+table, th, td{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1%;
+    border: 1px black solid;
+}
+.col-container{
+    margin-top: 2%;
+}
+.col-container form{
+    margin-top: 2%;
+}
+form .label{
+    margin-top: 1%;
+}
+input[type=email]{
+    width: 43%;
+}
+input[type=submit]{
+    width: 8%;
+    height: 30px;
+    margin: 1%;
+    cursor: pointer;
+} */
