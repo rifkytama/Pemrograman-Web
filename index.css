@@ -1,20 +1,30 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 main{
     text-align: center;
-    background-image: linear-gradient(red, yellow, blue);
 }
 .container{
-    padding: 2%;
+    text-align: center;
+    margin: 40px 10px;
+    padding: 20px;
+    flex: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    background-color: darkgray;
+}
+.container h1{
+    background-color: cadetblue;
+    padding: 2% 0;
+}
+.container h2{
+    margin-top: 1%;
 }
 .container img{
+    margin-top: 1%;
     width: 30%;
-}
-.main-container h1{
-    margin-top: 2%;
 }
 table, th, td{
     width: 50%;
@@ -23,20 +33,70 @@ table, th, td{
     border: 1px black solid;
 }
 .col-container{
+    text-align: center;
+    margin: 40px 10px;
+    padding: 20px;
+    flex: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+.col-container1{
     margin-top: 2%;
 }
-.col-container form{
+.col-container1 form{
     margin-top: 2%;
 }
-form .label{
+#bulutangkis{
+    text-align: center;
+    margin: 40px 10px;
+    padding: 20px;
+    flex: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+#bulutangkis h2{
     margin-top: 1%;
 }
-input[type=email]{
-    width: 43%;
+#bulutangkis img{
+    width: 700px;
 }
-input[type=submit]{
-    width: 8%;
-    height: 30px;
-    margin: 1%;
-    cursor: pointer;
-} */
+#bulutangkis p{
+    margin: 0 10%;
+    text-align: justify;
+}
+#basket{
+    text-align: center;
+    margin: 40px 10px;
+    padding: 20px;
+    flex: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;   
+}
+#basket h2{
+    margin-top: 1%;
+}
+#basket img{
+    width: 700px;
+}
+#basket p{
+    margin: 0 10%;
+    text-align: justify;
+}
+#futsal{
+    text-align: center;
+    margin: 40px 10px;
+    padding: 20px;
+    flex: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;   
+}
+#futsal h2{
+    margin-top: 1%;
+}
+#futsal img{
+    width: 700px;
+}
+#futsal p{
+    margin: 0 10%;
+    text-align: justify;
+}
