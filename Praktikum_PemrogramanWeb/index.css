@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+main{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    margin: 40px 10px;
+    padding: 20px;
+    flex: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    background-color: #F3D49D;
+}
+.container h1{
+    background-color: cadetblue;
+    padding: 2% 0;
+}
+.container h2{
+    margin-top: 1%;
+}
+.container img{
+    margin-top: 1%;
+    width: 30%;
+}
+table, th, td{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1%;
+    border: 1px black solid;
+}
+.col-container{
+    text-align: center;
+    margin: 40px 10px;
+    padding: 20px;
+    flex: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    background-color: white;
+}
+.col-container1{
+    margin-top: 2%;
+}
+.col-container1 form{
+    margin-top: 2%;
+}
+#bulutangkis{
+    text-align: center;
+    margin: 40px 10px;
+    padding: 20px;
+    flex: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    background-color: #E4EAE9;
+}
+#bulutangkis h2{
+    margin-top: 1%;
+}
+#bulutangkis img{
+    width: 50%;
+}
+#bulutangkis p{
+    margin: 0 10%;
+    text-align: justify;
+}
+#basket{
+    text-align: center;
+    margin: 40px 10px;
+    padding: 20px;
+    flex: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    background-color: #E4EAE9; 
+}
+#basket h2{
+    margin-top: 1%;
+}
+#basket img{
+    width: 50%;
+}
+#basket p{
+    margin: 0 10%;
+    text-align: justify;
+}
+#futsal{
+    text-align: center;
+    margin: 40px 10px;
+    padding: 20px;
+    flex: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;  
+    background-color: #E4EAE9; 
+}
+#futsal h2{
+    margin-top: 1%;
+}
+#futsal img{
+    width: 50%;
+}
+#futsal p{
+    margin: 0 10%;
+    text-align: justify;
+}
+.col-container1{
+    padding: 1%;
+    margin: 40px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: #E4EAE9;
+}
+.col-container1 h1{
+    font-size: 2rem;
+}
+.col-content{
+    padding: 2%;
+    display: flex;
+}
+.makanan{
+    margin: 0 auto;
+}
+.makanan img{
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+.footer{
+    background: #009CCD;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 3%;
+}
+.footer h4{
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa{
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+@media (max-width: 600px) {
+    .col-content{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .makanan{
+        max-width: max-content;
+        text-align: center;
+    }
+    .makanan .img{
+        width: 70%;
+        margin-top: 2%;
+    }
+}
