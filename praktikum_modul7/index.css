@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #13F5C8;
+    color: #000;
+    font-size: 2rem;
+}
+
+.header h1 {
+    padding: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.head-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto; 
+    gap: 2em;
+}
+
+.col-container{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+    overflow-x: auto;
+    flex-grow: 3;
+}
+.content {
+    padding: 25px 0;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+    overflow-x: auto;
+    flex-grow: 3;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tr {
+    height: 30px;
+}
+
+.table tr:nth-child(even) {background-color: #f2f2f2;}
+.table tbody tr:hover {background-color: #ddd;}
+.table td, .table th {
+    padding: 8px;
+}
+
+.table tr td {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+thead {
+    background-color: #F5A413;
+    color: #fff;
+}
+input[type=text]{
+    border-radius: 10px;
+    width: 100%;
+}
+.btn{
+    padding: 8px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #F5A413;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    color: red;
+}
+
+
