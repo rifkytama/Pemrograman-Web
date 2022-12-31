@@ -1,0 +1,32 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content{
+    margin: 30px auto;
+    text-align: left;
+    padding: 10px 50px;
+    border: 1px solid black;
+    width:20%;
+}
+.content h1{
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+}
+select{
+    width: 106.5%;
+    padding: 10px;
+}
+.content button{
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+.submit {
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: cyan;
+}
